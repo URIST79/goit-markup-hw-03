@@ -75,6 +75,7 @@ p {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  padding: 24px 0;
 }
 .header-item:hover,
 .header-item:focus {
@@ -297,6 +298,8 @@ p {
   padding: 100px 0;
 }
 .logo-footer {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .studio-footer {
   color: #f4f4fd;
@@ -304,8 +307,6 @@ p {
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.54px;
-  display: inline-block;
-  margin-bottom: 16px;
 }
 .footer-p {
   color: #f4f4fd;
