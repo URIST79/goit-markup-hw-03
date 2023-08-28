@@ -39,6 +39,9 @@ p {
 }
 .header-container {
   display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1128px;
 }
 .header-nav {
   display: flex;
@@ -78,12 +81,12 @@ p {
 .header-item:focus {
   color: #404bbf;
 }
-.navigation {
+/* .navigation {
   display: flex;
   justify-content: space-between;
   width: 100%;
   max-width: 1128px;
-}
+} */
 .address {
   font-style: normal;
 }
